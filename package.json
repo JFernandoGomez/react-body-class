@@ -1,0 +1,16 @@
+{
+  "name": "react-body-class",
+  "version": "1.0.0",
+  "description": "A component to set the body class of your react app",
+  "main": "./dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelly Dwan",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.3.1",
+    "react-side-effect": "^1.0.2"
+  }
+}
