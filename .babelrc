@@ -1,8 +1,11 @@
 {
 	"presets": [
-		"es2015"
-	],
-	"plugins": [
-		"transform-react-jsx"
+		["env", {
+			"targets": {
+				"browsers": ["last 2 versions", "not ie <= 10"],
+				"node": "current"
+			},
+			"useBuiltIns": true,
+		}],
 	]
 }
